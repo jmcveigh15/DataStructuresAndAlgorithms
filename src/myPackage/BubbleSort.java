@@ -1,38 +1,22 @@
-package myPackage;
-
-/**
- * Simple bubble sort example
- * O(n^2)
- */
-
 public class BubbleSort {
 
     public static void main(String[] args){
-        int[] array = {45, 90, -1, -5, 55, 12};
-
-        for (int lastUnsortedIndex = array.length -1; lastUnsortedIndex > 0; lastUnsortedIndex--){
+        int[] num = {5,4,3};
+        for (int lastUnsortedIndex = num.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--){
             for (int i = 0; i < lastUnsortedIndex; i++){
-                if (array[i] > array[i + 1]){
-                    swap(array, i, i+1);
+                if(num[i] > num[i + 1]){
+                    swap(num, i, i+1);
                 }
             }
         }
-
-        for (int i = 0; i < array.length; i++){
-            System.out.println(array[i]);
+        for (int loop = 0; loop < num.length; loop++){
+            System.out.println(num[loop]);
         }
-
     }
 
-    public static void swap(int[] array, int i, int j){
-
-        if(i==j){
-            return;
-        }
-
-        int temp = array[i];
-        array[i] = array[j];
-        array[j] = temp;
-
+    public static void swap(int[] num, int i, int j){
+        int temp = num[i];
+        num[i] = num[j];
+        num[j] = temp;
     }
 }
