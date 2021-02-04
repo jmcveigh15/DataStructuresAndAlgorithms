@@ -1,6 +1,10 @@
+package src.myPackage;
+
 public class InsertionSort {
 
     public static void main(String[] args){
+
+        // O(n^2)
 
         // before the sort starts, intArray[0] is considered sorted
         int[] intArray = {20, 35, -15, 7, 55, 1, -22};

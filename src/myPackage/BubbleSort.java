@@ -1,4 +1,8 @@
+package src.myPackage;
+
 public class BubbleSort {
+
+    // O(n^2)
 
     public static void main(String[] args){
         int[] num = {5,4,3};

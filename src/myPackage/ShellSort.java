@@ -1,4 +1,8 @@
+package src.myPackage;
+
 public class ShellSort {
+
+    // O(n^2) worst case but better than insertion sort
 
     public static void main(String[] args){
 
