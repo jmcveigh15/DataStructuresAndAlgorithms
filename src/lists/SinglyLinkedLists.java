@@ -24,5 +24,20 @@ public class SinglyLinkedLists {
         list.removeFromFront();
         System.out.println(list.getSize());
         list.printList();
+
+        Integer one = 1;
+        Integer two = 2;
+        Integer three = 3;
+        Integer four = 4;
+
+        IntegerLinkedList numList = new IntegerLinkedList();
+        numList.insertSorted(three);
+        numList.printList();
+        numList.insertSorted(two);
+        numList.printList();
+        numList.insertSorted(one);
+        numList.printList();
+        numList.insertSorted(four);
+        numList.printList();
     }
 }
