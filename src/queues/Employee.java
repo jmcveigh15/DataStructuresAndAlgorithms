@@ -1,4 +1,4 @@
-package src.stacks;
+package src.queues;
 
 import java.util.Objects;
 
