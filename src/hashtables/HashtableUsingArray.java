@@ -14,6 +14,8 @@ public class HashtableUsingArray {
         ht.put("Doe", johnDoe);
         ht.put("Wilson", mikeWilson);
         ht.put("Smith", marySmith);
+        ht.printHashtable();
         System.out.println(ht.get("Wilson"));
+        System.out.println(ht.get("Smith"));
     }
 }
