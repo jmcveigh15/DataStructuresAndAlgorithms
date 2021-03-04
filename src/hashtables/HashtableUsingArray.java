@@ -17,5 +17,9 @@ public class HashtableUsingArray {
         ht.printHashtable();
         System.out.println(ht.get("Wilson"));
         System.out.println(ht.get("Smith"));
+        ht.remove("Wilson");
+        ht.remove("Jones");
+        ht.printHashtable();
+        System.out.println(ht.get("Smith"));
     }
 }
