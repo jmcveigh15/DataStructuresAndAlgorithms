@@ -17,12 +17,28 @@ public class Main {
 
         intTree.traverseInOrder();
         System.out.println();
-
+        /*
         System.out.println(intTree.get(27));
         System.out.println(intTree.get(17));
         System.out.println(intTree.get(888));
 
         System.out.println(intTree.min());
         System.out.println(intTree.max());
+         */
+        intTree.delete(15);
+        intTree.traverseInOrder();
+        System.out.println();
+
+        intTree.delete(27);
+        intTree.traverseInOrder();
+        System.out.println();
+
+        intTree.delete(25);
+        intTree.traverseInOrder();
+        System.out.println();
+
+        intTree.delete(888);
+        intTree.traverseInOrder();
+        System.out.println();
     }
 }
